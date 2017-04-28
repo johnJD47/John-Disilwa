@@ -36,9 +36,9 @@ nav{
       background: -webkit-linear-gradient(to top, #EA384D, #D31027);  /* Chrome 10-25, Safari 5.1-6 */
       background: linear-gradient(to top, #EA384D, #D31027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       font-family: 'Eagle Lake', cursive;
-      position: relative;
-      overflow: hidden;
 }
+
+
 
 .navbar-inverse .navbar-nav>li>a{
     color: white;
@@ -68,10 +68,6 @@ nav{
 }
 #first{
     padding-bottom: 25px;
-}
-#first img{
-  width: 100%;
-  height: auto;
 }
 /*===============================================================*/
 /*end of first section*/
@@ -107,14 +103,14 @@ nav{
   color: crimson;
 }
 #third{
-  height: 50%;
-  width: 50%;
+  height: auto;
+  width: auto;
 }
 #third .container{
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top: 150px;
-  height: 50%;
+  height: 400px;
   width: 50%;
   color: white;
   background-color: black;
@@ -129,16 +125,7 @@ nav{
   height: auto;
   width: 100%;
 }
-#services img{
-  width: 100%;
-  height: auto;
-}
 /*===============================================================*/
 /*end of services section styling*/
-
-/*===============================================================*/
-
-
-/*===============================================================*/
 /*===============================================================*/
 /*===============================================================*/
