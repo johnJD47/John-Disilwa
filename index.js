@@ -6,4 +6,6 @@ app.get('/', function (req, res) {
   res.send(__dirname+'/public/index.html');
 })
 
-app.listen(port);
+app.listen(port, function(){
+	console.log("server started and running on port number "+ port);
+});
