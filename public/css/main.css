@@ -37,6 +37,7 @@ nav{
       background: linear-gradient(to top, #EA384D, #D31027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
       font-family: 'Eagle Lake', cursive;
       width: 100%;
+      height: auto;
 
 }
 
@@ -115,11 +116,9 @@ nav{
 }
 #third{
   height: auto;
-  width: auto;
-}
-#thrd{
   width: 100%;
 }
+
 #third .container{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -188,7 +187,79 @@ nav{
 .text {
   background-color: transparent;
   color: black;
-  font-size: 14px;
+  font-size: 18px;
   padding: 1px 3px;
 }
 
+#fourth{
+  background: url("../img/bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+  width: 100%;
+  color: white;
+}
+#fourth h1{
+  padding-top: 10px;
+}
+/*===============================================================*/
+/*contact form styling*/
+/*===============================================================*/
+#form{
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+
+}
+#form .container{
+  padding-top: 50px;
+  border: 1px solid crimson;
+  border-radius: 25px;
+  padding-bottom: 50px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/*===============================================================*/
+/*end of contact form styling*/
+/*===============================================================*/
+/*footer styling*/
+/*===============================================================*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  position: ;
+  height: 40px;
+  background-color: #999999;
+}
+footer ul.footerleft{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+footer ul.footerleft li{
+    
+    margin-right: 25px;
+}
+footer a{
+    color: #222;
+}
+
+footer a:hover{
+    color: #ffffff;
+    text-decoration: none;    
+}
+.social:hover {
+     -webkit-transform: scale(1.0);
+     -webkit-transition-duration: 0.5s;
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     color: ;
+     
+ }
+
+/*===============================================================*/
+/*end of footer styling*/
+/*===============================================================*/
